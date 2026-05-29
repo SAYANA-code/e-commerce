@@ -202,7 +202,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
             Btn.divide,
             Btn.calculate,
           ].contains(value)
-        ? Colors.orange
+        ? Colors.blue
         : Colors.black87;
   }
 }
