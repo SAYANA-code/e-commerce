@@ -142,7 +142,7 @@ class _HomePageState extends State<HomePage> {
                   controller: numberController,
                   decoration: InputDecoration(
                     hintText: "Contact Phone",
-                    label: Text("Enter phone number"),
+                    label: Text("Enter phone number..."),
                     border: InputBorder.none,
                   ),
                 ),
