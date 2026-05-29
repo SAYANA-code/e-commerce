@@ -118,8 +118,8 @@ class _HomePageState extends State<HomePage> {
                 child: TextField(
                   controller: nameController,
                   decoration: InputDecoration(
-                    hintText: "Contact Name",
-                    label: Text("Enter name"),
+                    hintText: "Contact Name:",
+                    label: Text("Enter name..."),
                     border: InputBorder.none,
                   ),
                 ),
@@ -141,7 +141,7 @@ class _HomePageState extends State<HomePage> {
                 child: TextField(
                   controller: numberController,
                   decoration: InputDecoration(
-                    hintText: "Contact Phone",
+                    hintText: "Contact Number",
                     label: Text("Enter phone number..."),
                     border: InputBorder.none,
                   ),
